@@ -3,7 +3,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const token = process.env.TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
-// GANTI DENGAN TELEGRAM ID KAMU
+// GANTI DENGAN ID TELEGRAM KAMU
 const adminId = 123456789;
 
 let downloadLink = "Belum ada link.";
