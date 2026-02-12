@@ -1,0 +1,12 @@
+{
+  "name": "DMS_file",
+  "version": "1.0.0",
+  "description": "Bot Download & Donasi",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
